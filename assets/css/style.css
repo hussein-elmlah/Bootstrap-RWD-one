@@ -1,0 +1,53 @@
+body {
+  padding-top: 56px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+  .myServices {
+    height: 75vh;
+  }
+  .about {
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .contactImg {
+    display: none;
+  }
+}
+
+.myHeaderH1 {
+  color: rgb(250, 254, 255);
+}
+
+.myName {
+ color: rgb(167, 218, 230);
+}
+
+.myServices {
+  padding-top: 50px;
+}
+
+.myTextArea {
+  resize: none;
+}
+
+.footerMyName {
+  color: rgb(211, 16, 49);
+ }
+
+/* Added styles for dark mode */
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.bg-black {
+  background-color: #121415 !important;
+}
+
+.text-light {
+  color: #ffffff;
+}
